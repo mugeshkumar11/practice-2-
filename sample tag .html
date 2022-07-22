@@ -13,9 +13,11 @@
         </style>
 </head>
 <body>
+      <h2>anchor element</h2>
     <p>
         <a href="mailto:www.gmail.com">www.gmail.com</a>
     </p>
+       <h2>abbrevation element</h2>
     <p>    
        <abbr title="World Health Organization">WHO</abbr>was found in 1948.
     </p>
@@ -118,12 +120,86 @@ ctx.fillRect(0, 0, 80, 100);
     <td>$50</td>
   </tr>
 </table>
+<h1>The cite element</h1>
 
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+<h1>The code element</h1>
 
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
 
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+<h1>The col element</h1>
 
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+<h1>The colgroup element</h1>
 
+<table>
+  <colgroup>
+    <col span="2" style="background-color:red">
+    <col style="background-color:yellow">
+  </colgroup>
+  <tr>
+    <th>ISBN</th>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>3476896</td>
+    <td>My first HTML</td>
+    <td>$53</td>
+  </tr>
+  <tr>
+    <td>5869207</td>
+    <td>My first CSS</td>
+    <td>$49</td>
+  </tr>
+</table>
+<h1>The data element</h1>
 
+<p>The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
 
 </body>
 </html>
